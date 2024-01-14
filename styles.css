@@ -83,3 +83,11 @@ body {
 .page-number:hover a {
   color: #fff;
 }
+
+.selected {
+  background-color: #087f5b;
+}
+
+.selected a {
+  color: #fff;
+}
