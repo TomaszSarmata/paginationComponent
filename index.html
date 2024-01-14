@@ -1,16 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pagination</title>
-  <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagination</title>
+    <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  
-</body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="pagination">
+      <ul class="pagination-wrapper">
+        <li class="left-arrow arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="arrow-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M15.75 19.5 8.25 12l7.5-7.5"
+            />
+          </svg>
+        </li>
+        <li class="page-number"><a href="">1</a></li>
+        <li class="page-number"><a href="">2</a></li>
+        <li class="page-number"><a href="">3</a></li>
+        <li class="page-number"><a href="">4</a></li>
+        <li class="page-number"><a href="">5</a></li>
+        <li class="page-number"><a href="">6</a></li>
+        <li><span>...</span></li>
+        <li class="page-number"><a href="">23</a></li>
+        <li class="right-arrow arrow">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="arrow-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m8.25 4.5 7.5 7.5-7.5 7.5"
+            />
+          </svg>
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>
