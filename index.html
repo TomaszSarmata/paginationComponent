@@ -147,7 +147,7 @@
         .querySelector(".btn-left")
         .addEventListener("click", function () {
           const links = document.querySelectorAll(".page-link");
-          for (let i = links.lenght - 1; i >= 0; i--) {
+          for (let i = links.length - 1; i >= 0; i--) {
             if (links[i].classList.contains("page-link--current")) {
               links[i].classList.remove("page-link--current");
               let nextIndex = i - 1 >= 0 ? i - 1 : 6;
